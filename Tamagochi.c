@@ -11,7 +11,7 @@ int main()
 	  printf("\n Menú de acciones:\n");
 	  printf("Jugar\n");
 	  printf("Comer\n");
-	  printf("Dormir\n");
+	  printf("Descansar\n");
 	  printf("Ver estado\n");
 	  printf("Salir");
 	  printf("\n Selecciona una acción: ");
@@ -25,8 +25,7 @@ int main()
 			    break;
 		    case 3: 
 			    printf("\t¿Cuantas horas voy a dormir?");
-			    printf("\nTomar una siesta");
-			    printf("\nDormir por 4 horasa");
+			    printf("\nTomar una siesta de 4 horas");
 			    printf("\nDormir toda la noche");
 			    printf("\nNo dormir");
 			    scanf("%d",&subopc3);
@@ -38,8 +37,6 @@ int main()
 				      case 2:
 					      break;
 				      case 3:
-					      break;
-				      case 4:
 					      break;
 			      }
 
