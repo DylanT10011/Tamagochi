@@ -6,7 +6,7 @@
 #include<stdio.h>
 int main()
   {
-	  int opcion,subopc1
+	  int opcion,subopc1;
 	  printf("\t Tamagochi");
 	  printf("\n Menú de acciones:\n");
 	  printf("Jugar\n");
@@ -14,11 +14,12 @@ int main()
 	  printf("Dormir\n");
 	  printf("Ver estado\n");
 	  printf("Salir");
-
+	  scanf("%d",&opcion);
 	  switch (opcion)
 	    {
 		    case 1:
-			    printf("\t ¿Donde deberíamos jugar?"); 
+			    printf("\t ¿Donde deberíamos jugar?");
+			    scanf("%d",&subopc1); 
 			    switch (subopc1);
 			      {
 				      case 1: 
@@ -33,7 +34,7 @@ int main()
 				      case 4:
 					      printf("\nNo jugar\n");
 					      break;
-			      }
+		    break;	    }
 	    }
 	  
   }
