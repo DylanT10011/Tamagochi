@@ -20,12 +20,11 @@ int main()
 		    case 1:
 			    printf("\t ¿Donde deberíamos jugar?"); 
 			    switch (subopc1);
-			    {
-			
-					    
-					 
-				    
-			    }
+			      {
+				      case 1: 
+					      printf("\nJugar en el parque\n");
+					      break;
+			      }
 	    }
 	  
   }
