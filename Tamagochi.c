@@ -27,6 +27,8 @@ int main()
 				      case 2:
 					      printf("\nJugar con un juguete\n");
 					      break;
+				      case 3:
+					      printf("\nNo jugar\n");
 			      }
 	    }
 	  
