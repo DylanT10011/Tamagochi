@@ -27,6 +27,19 @@ int main()
 			    printf("\nComer frutas");
 			    printf("\nComer comida rápida");
 			    printf("\nNo comer");
+
+			    switch(subopc2)
+			      {
+				      case 1: 
+					      break;
+				      case 2: 
+					      break;
+				      case 3:
+					      break;
+				      case 4:
+					      break;
+			      }
+
 			    break;
 	    }
   }
