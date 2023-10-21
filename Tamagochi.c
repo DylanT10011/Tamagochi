@@ -18,17 +18,21 @@ int main()
 	  switch (opcion)
 	    {
 		    case 1: 
-			    printf("¿Donde deberíamos jugar?");
+			    printf("\t¿Donde deberíamos jugar?");
 			    scanf("%d",&subopc1);
+			    printf("\nJugar En el parque");
+			    printf("\nJugar Con un juguete");
+			    printf("\nJugar al escondite");
+			    printf("\nNo Jugar");
 			    switch (subopc1)
 			      {
-				      case 1: printf("\nJugar en el parque\n");
+				      case 1: 
 					      break;
-				      case 2: printf("\nJugar con un juguete"); 
+				      case 2: 
 					      break;
-				      case 3: printf("\nJugar en la casa");
+				      case 3: 
 					      break;
-				      case 4: printf("\nNo jugar");
+				      case 4: 
 					      break;
 	
 			      }
