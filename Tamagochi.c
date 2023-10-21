@@ -43,6 +43,16 @@ int main()
 	
 			      }
 			    break;
+
+		    case 2: 
+			    break;
+		    case 3:
+			    break;
+		    case 4:
+			    printf("\n ESTADO DEL TAMAGOCHI0");
+			    printf("\n Vida: %d",health);
+			    printf("\n Energía: %d",energy);
+			    break;
 	    }
 
   }
