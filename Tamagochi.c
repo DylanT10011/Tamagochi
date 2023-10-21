@@ -6,6 +6,7 @@
 #include<stdio.h>
 int main()
   {
+	  int opcion,subopc1,subopc2,subopc3;
 	  printf("\t Tamagochi");
 	  printf("\n Menú de acciones:\n");
 	  printf("Jugar\n");
@@ -13,4 +14,35 @@ int main()
 	  printf("Dormir\n");
 	  printf("Ver estado\n");
 	  printf("Salir");
+	  printf("\n Selecciona una acción: ");
+	  scanf("%d",&opcion);
+
+	  switch (opcion)
+	    {
+		    case 1: 
+			    break;
+		    case 2: 
+			    break;
+		    case 3: 
+			    printf("\t¿Cuantas horas voy a dormir?");
+			    printf("\nTomar una siesta");
+			    printf("\nDormir por 4 horasa");
+			    printf("\nDormir toda la noche");
+			    printf("\nNo dormir");
+			    scanf("%d",&subopc3);
+
+			    switch(subopc3)
+			      {
+				      case 1: 
+					      break;
+				      case 2:
+					      break;
+				      case 3:
+					      break;
+				      case 4:
+					      break;
+			      }
+
+			    break;
+	    }
   }
