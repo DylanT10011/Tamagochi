@@ -17,24 +17,22 @@ int main()
 	  scanf("%d",&opcion);
 	  switch (opcion)
 	    {
-		    case 1:
-			    printf("\t ¿Donde deberíamos jugar?");
-			    scanf("%d",&subopc1); 
-			    switch (subopc1);
+		    case 1: 
+			    printf("¿Donde deberíamos jugar?");
+			    scanf("%d",&subopc1);
+			    switch (subopc1)
 			      {
-				      case 1: 
-					      printf("\nJugar en el parque\n");
+				      case 1: printf("\nJugar en el parque\n");
 					      break;
-				      case 2:
-					      printf("\nJugar con un juguete\n");
+				      case 2: printf("\nJugar con un juguete"); 
 					      break;
-				      case 3:
-					      printf("\nJugar en la casa\n");
+				      case 3: printf("\nJugar en la casa");
 					      break;
-				      case 4:
-					      printf("\nNo jugar\n");
+				      case 4: printf("\nNo jugar");
 					      break;
-		    break;	    }
+	
+			      }
+			    break;
 	    }
-	  
+
   }
