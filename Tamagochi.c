@@ -24,6 +24,9 @@ int main()
 				      case 1: 
 					      printf("\nJugar en el parque\n");
 					      break;
+				      case 2:
+					      printf("\nJugar con un juguete\n");
+					      break;
 			      }
 	    }
 	  
