@@ -28,7 +28,11 @@ int main()
 					      printf("\nJugar con un juguete\n");
 					      break;
 				      case 3:
+					      printf("\nJugar en la casa\n");
+					      break;
+				      case 4:
 					      printf("\nNo jugar\n");
+					      break;
 			      }
 	    }
 	  
