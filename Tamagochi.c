@@ -6,7 +6,7 @@
 #include<stdio.h>
 int main()
   {
-	  int opcion,subopc1,subopc2,subopc3;
+	  int opcion=0,subopc1,subopc2,subopc3;
 	  printf("\t Tamagochi");
 	  printf("\n Menú de acciones:\n");
 	  printf("Jugar\n");
@@ -16,7 +16,8 @@ int main()
 	  printf("Salir");
 	  printf("\n Selecciona una acción: ");
 	  scanf("%d",&opcion);
-
+	 
+	  do{
 	  switch (opcion)
 	    {
 		    case 1: 
@@ -42,4 +43,5 @@ int main()
 
 			    break;
 	    }
+	  }while(opcion>1 || opcion<4);
   }
