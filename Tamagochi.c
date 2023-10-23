@@ -43,5 +43,5 @@ int main()
 
 			    break;
 	    }
-	  }while(opcion>1 || opcion<4);
+	  }while(opcion>1 && opcion<4);
   }
